@@ -1,0 +1,20 @@
+{
+  "name": "Rizzoma Document UI",
+  "version": "0.101",
+  "manifest_version": 2,
+  "description": "More Document Oriented easier to read? :)",
+  "icons": {
+    "48": "sidebar-icon-48x48.png",
+    "128": "sidebar-icon.png"
+  },
+  "browser_action": {
+    "default_icon": "sidebar-icon.png"
+  }, 
+  "background": {"page": "rizzoma-background.html"},
+  "permissions": [
+    "storage",
+    "tabs",
+    "<all_urls>"
+  ],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+}

@@ -1,0 +1,26 @@
+.root-blip > .editor-container > .editor > :first-child {
+  font-size: 28px!important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fold-button.subdiscussion-button {
+  background-color: #EEEEEE;
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-bottom: 3%;
+  padding-top: 2.2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  line-height: normal;
+}
+
+.blips-container .blips-container .subdiscussion-button {
+  font-size: 1.35em;
+  color: rgb(64, 64, 64);
+  color: hsl(0, 0%, 25%);
+}
