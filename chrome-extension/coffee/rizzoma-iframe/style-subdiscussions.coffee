@@ -23,7 +23,7 @@ getSubdiscussionButtons = ->
 
 transformSubDiscussionButtons = (subDiscussionButtons) ->
   $(subDiscussionButtons).addClass('subdiscussion-button')
-  for button in subDiscussionButtons[1..]
+  for button in subDiscussionButtons[0..]
     textSpan = $(button).parent().parent().parent().children('span')[0]
     text = $(textSpan).text();
     $(button).text($(textSpan).text())

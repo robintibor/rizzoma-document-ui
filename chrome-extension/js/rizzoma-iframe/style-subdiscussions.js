@@ -33,7 +33,7 @@
   transformSubDiscussionButtons = function(subDiscussionButtons) {
     var button, text, textSpan, _i, _len, _ref, _results;
     $(subDiscussionButtons).addClass('subdiscussion-button');
-    _ref = subDiscussionButtons.slice(1);
+    _ref = subDiscussionButtons.slice(0);
     _results = [];
     for (_i = 0, _len = _ref.length; _i < _len; _i++) {
       button = _ref[_i];
